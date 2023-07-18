@@ -29,7 +29,7 @@ const App = () => {
            rounded-s-full border-e-0
             w-96 px-5 py-2 text-black-500
             focus:outline-none"
-          placeholder="Write is your task name"
+          placeholder="Write your task name"
         />
         <button
           onClick={() => handleButton(task, setTask, allTask, setAllTask)}
@@ -53,8 +53,8 @@ const App = () => {
           <li
             key={index}
             className="flex items-center
-             justify-between bg-gray-100
-             border border-gray-200 rounded
+             justify-between bg-gray-200
+             border border-gray-200 rounded-bl-lg
               px-8 py-2 mb-2 "
           >
             <span>{task}</span>
