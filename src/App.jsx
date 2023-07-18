@@ -10,10 +10,10 @@ const App = () => {
     <div className="w-8/12 m-auto">
       {/* header section  */}
       <h1
-        className="text-4xl font-bold 
-      text-center my-5 text-sky-700"
+        className="text-5xl font-bold 
+      text-center my-5 text-black-700"
       >
-        Create To-Do List
+        To-Do List
       </h1>
 
       {/* todo list create section  */}
@@ -27,20 +27,20 @@ const App = () => {
           onChange={(e) => setTask(e.target.value)}
           className="border border-gray-400
            rounded-s-full border-e-0
-            w-96 px-5 py-2 text-gray-500
+            w-96 px-5 py-2 text-black-500
             focus:outline-none"
-          placeholder="what is your task name....."
+          placeholder="Write is your task name"
         />
         <button
           onClick={() => handleButton(task, setTask, allTask, setAllTask)}
           type="button"
-          className="bg-cyan-500
-           border border-cyan-700
+          className="bg-blue-500
+           border border-blue-700
            border-s-0
            text-white font-semibold
            rounded-e-full px-4 py-2
             transition duration-300
-            ease-in-out hover:bg-cyan-800
+            ease-in-out hover:bg-blue-800
             capitalize "
         >
           Add Task
