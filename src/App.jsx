@@ -26,7 +26,7 @@ const App = () => {
           value={task}
           onChange={(e) => setTask(e.target.value)}
           className="border border-gray-400
-           rounded-s-full border-e-0
+           rounded-bl-lg-s-full border-e-0
             w-96 px-5 py-2 text-black-500
             focus:outline-none"
           placeholder="Write your task name"
@@ -53,7 +53,7 @@ const App = () => {
           <li
             key={index}
             className="flex items-center
-             justify-between bg-gray-200
+             justify-between bg-blue-200
              border border-gray-200 rounded-bl-lg
               px-8 py-2 mb-2 "
           >
