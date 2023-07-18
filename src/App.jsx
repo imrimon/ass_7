@@ -26,10 +26,10 @@ const App = () => {
           value={task}
           onChange={(e) => setTask(e.target.value)}
           className="border border-gray-400
-           rounded-bl-lg-s-full border-e-0
+           rounded-bl-lg-full border-e-0
             w-96 px-5 py-2 text-black-500
             focus:outline-none"
-          placeholder="Write your task name"
+          placeholder="Write Your Task Name"
         />
         <button
           onClick={() => handleButton(task, setTask, allTask, setAllTask)}
